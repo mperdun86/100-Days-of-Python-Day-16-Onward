@@ -1,16 +1,12 @@
 question_data = [
-    {"text": "A slug's blood is green.", "answer": "True"},
-    {"text": "The loudest animal is the African Elephant.", "answer": "False"},
-    {"text": "Approximately one quarter of human bones are in the feet.", "answer": "True"},
-    {"text": "The total surface area of a human lungs is the size of a football pitch.", "answer": "True"},
-    {"text": "In West Virginia, USA, if you accidentally hit an animal with your car,"
-             " you are free to take it home to eat.", "answer": "True"},
-    {"text": "In London, UK, if you happen to die in the House of Parliament, "
-             "you are entitled to a state funeral.", "answer": "False"},
-    {"text": "It is illegal to pee in the Ocean in Portugal.", "answer": "True"},
-    {"text": "You can lead a cow down stairs but not up stairs.", "answer": "False"},
-    {"text": "Google was originally called 'Backrub'.", "answer": "True"},
-    {"text": "Buzz Aldrin's mother's maiden name was 'Moon'.", "answer": "True"},
-    {"text": "No piece of square dry paper can be folded in half more than 7 times.", "answer": "False"},
-    {"text": "A few ounces of chocolate can to kill a small dog.", "answer": "True"}
+    {"text": "The USS Enterprise's registry number is NCC-1701.", "answer": "True"},
+    {"text": "Spock is fully human.", "answer": "False"},
+    {"text": "The Klingon homeworld is called Qo'noS.", "answer": "True"},
+    {"text": "Jean-Luc Picard was the first captain of the USS Enterprise.", "answer": "False"},
+    {"text": "The Borg operate under a collective consciousness.", "answer": "True"},
+    {"text": "The Prime Directive prohibits interference with less-developed civilizations.", "answer": "True"},
+    {"text": "Data, the android officer, was created by Dr. Noonien Soong.", "answer": "True"},
+    {"text": "The Vulcan salute is accompanied by the phrase 'Live Long and Prosper.'", "answer": "True"},
+    {"text": "Deep Space Nine is a starship assigned to explore the Delta Quadrant.", "answer": "False"},
+    {"text": "The Q Continuum is a group of omnipotent beings.", "answer": "True"}
 ]
