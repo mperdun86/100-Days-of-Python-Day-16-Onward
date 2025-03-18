@@ -1,3 +1,6 @@
+from operator import truediv
+
+
 class QuizBrain:
     def __init__(self, question_list):
         self.question_list = question_list
@@ -11,8 +14,13 @@ class QuizBrain:
     def next_question(self):
         current_question = self.question_list[self.question_number]
         self.question_number += 1
-        user_answer = input(f"Q.{self.question_number}: {current_question.text} (True/False): ")
-        self.check_answer(user_answer, current_question.answer)
+        while True:
+            user_answer = input(f"Q.{self.question_number}: {current_question.text} (True/False): ").lower().strip()
+            if user_answer in ['true', 'false']:
+                self.check_answer(user_answer, current_question.answer)
+                break
+            else:
+                print("Incorrect input, answer must be 'True' or 'False'")
 
     def check_answer(self, user_answer, correct_answer):
         if user_answer.lower() == correct_answer.lower():
