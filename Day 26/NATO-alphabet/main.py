@@ -1,6 +1,5 @@
 import pandas
 #TODO 1. Create a dictionary in this format:
-#{"A": "Alfa", "B": "Bravo"}
 np_df = pandas.read_csv('nato_phonetic_alphabet.csv')
 phonetic_dict = {row.letter: row.code for (index, row) in np_df.iterrows()}
 print(phonetic_dict)
