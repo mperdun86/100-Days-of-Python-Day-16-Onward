@@ -29,15 +29,14 @@ def reset_timer():
 
 def start_timer():
     global reps
-    # work_sec = WORK_MIN * 60
-    # short_break_sec = SHORT_BREAK_MIN * 60
-    # long_break_sec = LONG_BREAK_MIN * 60
+    work_sec = WORK_MIN * 60
+    short_break_sec = SHORT_BREAK_MIN * 60
+    long_break_sec = LONG_BREAK_MIN * 60
     reps += 1
-
 #------------TEST TIMERS---------------
-    work_sec = 3
-    short_break_sec = 2
-    long_break_sec = 10
+    # work_sec = 3
+    # short_break_sec = 2
+    # long_break_sec = 10
 
     if reps == 8:
         count_down(long_break_sec)
@@ -93,4 +92,4 @@ reset_button.grid(column=2, row=2)
 check_marks = Label(bg=YELLOW, fg=GREEN)
 check_marks.grid(column=1, row=3)
 
-window.mainloop()R
+window.mainloop()
