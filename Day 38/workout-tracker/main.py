@@ -16,7 +16,6 @@ HEIGHT = float(os.getenv("HEIGHT"))
 AGE = int(os.getenv("AGE"))
 GENDER = os.getenv("GENDER")
 
-#--------USER INPUT--------#
 query = input("How did you exercise, and for how long?: ")
 
 parameters = {
@@ -54,7 +53,6 @@ sheety_headers = {
 
 s_response = requests.post(SHEETY_URL, headers=sheety_headers, data=json.dumps(new_entry))
 
-#--------RESPONSE HANDLING--------#
 if s_response.status_code in [200, 201]:
     workout_data = s_response.json()
     print("Workout logged:")
