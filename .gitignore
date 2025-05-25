@@ -3,4 +3,6 @@
 **/*.pyc
 **/.env
 **/.env.*
+**/.cache
+**/.cache.*
 **/notes/
