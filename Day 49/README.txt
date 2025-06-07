@@ -1,0 +1,1 @@
+This day's coursework could not be completed due to outdated or unavailable resources provided in the module at this time.
