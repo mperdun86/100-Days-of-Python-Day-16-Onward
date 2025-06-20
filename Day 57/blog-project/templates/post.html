@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/styles.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="top">
+        <div class="title"><h1>{{ target_post.title }}</h1></div>
+    </div>
+    <div class="content">
+        <div class="card">
+            <h2>{{ target_post.subtitle }}</h2>
+            <p>{{ target_post.body }}</p>
+            <br>
+            <a href="{{ url_for('home') }}">Return to Home Page</a>
+        </div>
+    </div>
+</div>
+</body>
+<footer>
+    <p>Started with ♥️ in London.</p>
+    <p>Completed with ☕ in USA.</p>
+</footer>
+</html>
